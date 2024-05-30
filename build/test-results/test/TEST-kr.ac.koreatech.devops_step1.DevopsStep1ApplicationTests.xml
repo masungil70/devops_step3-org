@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.ac.koreatech.devops_step1.DevopsStep1ApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-29T14:10:22" hostname="masungilui-MacBookAir.local" time="0.396">
+  <properties/>
+  <testcase name="addTest()" classname="kr.ac.koreatech.devops_step1.DevopsStep1ApplicationTests" time="0.394"/>
+  <testcase name="contextLoads()" classname="kr.ac.koreatech.devops_step1.DevopsStep1ApplicationTests" time="0.001"/>
+  <system-out><![CDATA[23:10:21.485 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [kr.ac.koreatech.devops_step1.DevopsStep1ApplicationTests]: DevopsStep1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:10:21.552 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration kr.ac.koreatech.devops_step1.DevopsStep1Application for test class kr.ac.koreatech.devops_step1.DevopsStep1ApplicationTests
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-05-29T23:10:21.717+09:00  INFO 78273 --- [devops_step1] [    Test worker] k.a.k.d.DevopsStep1ApplicationTests      : Starting DevopsStep1ApplicationTests using Java 18 with PID 78273 (started by masungil in /Users/masungil/project/devops_step1/devops_step1)
+2024-05-29T23:10:21.718+09:00  INFO 78273 --- [devops_step1] [    Test worker] k.a.k.d.DevopsStep1ApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-05-29T23:10:22.064+09:00  INFO 78273 --- [devops_step1] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-05-29T23:10:22.161+09:00  INFO 78273 --- [devops_step1] [    Test worker] k.a.k.d.DevopsStep1ApplicationTests      : Started DevopsStep1ApplicationTests in 0.549 seconds (process running for 1.038)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
