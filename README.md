@@ -43,6 +43,11 @@ pipeline {
                     url: 'https://github.com/masungil70/devops_step3.git'
             }
         }
+        stage('build') {
+            steps {
+                 sh './gradlew build'
+            }
+        }
     }
 }
 
