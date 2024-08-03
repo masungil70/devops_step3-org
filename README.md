@@ -9,6 +9,7 @@
 
 <pre>
 <code>
+  작업폴더 위치 : /var/lib/jenkins/workspace
   jenkins 스크립트
 /*
 pipeline {
