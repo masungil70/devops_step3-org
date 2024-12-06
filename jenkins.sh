@@ -14,16 +14,14 @@ sudo sed -i 's/Environment="JENKINS_PORT=8080"/Environment="JENKINS_PORT=9090"/'
 #jenkins.service 변경으로 systemctl daemon-reload 해야한다 
 sudo systemctl daemon-reload
 
-#jenkins service 다시 시작
-sudo systemctl restart jenkins
 
 
-#jenkins 계정으로 
-sudo su - jenkins
 #jenkins 계정에 docker 그룹 추가
 sudo usermod -aG docker jenkins
-#jenkins 계정 로그아웃
-logout
+
+
+#jenkins service 다시 시작
+sudo systemctl restart jenkins
 
 #jenkins 관리자 초기 비밀번호 확인 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
